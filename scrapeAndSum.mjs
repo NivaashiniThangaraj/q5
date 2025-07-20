@@ -2,7 +2,7 @@
 import { chromium } from 'playwright';
 
 const seeds = Array.from({ length: 10 }, (_, i) => 45 + i);
-const baseUrl = 'https://example.com/report?seed='; // Replace with the actual base URL
+const baseUrl = 'https://sanand0.github.io/tdsdata/js_table/?seed='; // Replace with the actual base URL
 
 let grandTotal = 0;
 
